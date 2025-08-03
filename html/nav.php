@@ -1,7 +1,7 @@
 <?php
 $current_page = $_SERVER['REQUEST_URI'];
 $link[0] = "<a href='/'>Main</a>";
-$link[1] = "<a target='_blank' href='http://192.168.0.1:32400/web/index.html'>Plex Media Server</a>";
+$link[1] = "<a target='_blank' href='/jellyfin'>Jellyfin</a>";
 $link[2] = "<a target='_blank' href='/torrent'>qBittorrent</a>";
 $link[3] = "<a href='/smart/'>SMART Status</a>";
 $link[4] = "<a href='/network/'>Network Status</a>";
